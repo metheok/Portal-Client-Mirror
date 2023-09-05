@@ -1,0 +1,127 @@
+.buttonLink {
+	font-family: var(--font);
+	background-color: var(--formBg);
+	color: blue;
+	border: none;
+	font-weight: 500;
+	padding: 5px;
+}
+
+.buttonAdd {
+	font-family: var(--font);
+	background-color: var(--formBg);
+	color: blue;
+	border: none;
+	font-weight: 500;
+	padding: 5px;
+	margin-bottom: 13px;
+}
+
+.buttonLabel {
+	font-size: 0.9rem;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.buttonCenter {
+	display: flex;
+}
+
+
+.socialMediaList {
+	list-style: none;
+	padding: 0;
+}
+
+.socialMediaList li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+/* Style for the platform name */
+.platformName {
+	font-weight: 700;
+	margin-right: 1rem;
+}
+
+.platformLink {
+	font-weight: 500;
+	margin-right: 1rem;
+	color: rgb(88, 88, 255);
+}
+
+/* Style for the remove button */
+.removeButton {
+	cursor: pointer;
+	font-family: var(--font);
+	background-color: var(--formBg);
+	color: blue;
+	border: none;
+	font-weight: 500;
+	padding: 5px;
+	margin-bottom: 13px;
+}
+
+
+.labelSize label {
+	font-size: 0.95rem;
+}
+
+.labelSize input {
+	font-size: 0.95rem;
+}
+
+
+
+/* -----------mobile css----------- */
+
+.backArrow {
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 2rem;
+
+}
+
+
+.BasicLabel {
+	font-family: Open Sans;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.4);
+	padding-top: 0;
+}
+
+
+.pencilLink {
+	color: rgba(22, 118, 243, 1);
+	background-color: var(--formBg);
+	border: inherit;
+	padding: 0;
+}
+
+.basicHeading {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.10000000149011612px;
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
+}
+
+.basicContainer {
+	padding: auto;
+}
+
+.BasicReadOnly {
+	font-family: Open Sans;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
+}

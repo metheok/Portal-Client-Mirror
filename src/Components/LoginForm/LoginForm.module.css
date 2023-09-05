@@ -1,0 +1,141 @@
+.error {
+    color: red;
+    font-size: 0.8rem;
+}
+
+
+
+@media (max-width: 1000px) {
+
+    .loginButton {
+        margin-top: 15px;
+        margin-bottom: 18px;
+        height: 5rem;
+    }
+
+    .passwordLink {
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0em;
+        float: right;
+    }
+
+    .buttonFont {
+        font-family: 'Open Sans';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .linkButton {
+        background: none;
+        background-color: none !important;
+        border: none;
+        font-size: 16px;
+        color: rgba(22, 118, 243, 1);
+        cursor: pointer;
+        font-weight: 700;
+        padding: 0;
+        width: 3.7rem !important;
+    }
+
+    .linkButton:hover {
+        color: rgba(22, 118, 243, 0.7);
+        background-color: transparent !important;
+
+    }
+
+    .alreadyAccount {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Open Sans';
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .error {
+        font-family: 'Open Sans';
+        font-size: 11px;
+    }
+
+    .radio {
+        margin: 0 0 0 8px;
+        font-family: 'Open Sans';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .isRegistered {
+        font-family: 'Open Sans';
+        color: rgba(27, 43, 65, 0.72);
+        margin: 0;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .registerAs {
+        font-family: 'Open Sans';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .registerForm {
+        margin-top: 40px;
+        padding: 0px 15px;
+    }
+
+    .heading {
+        font-family: 'Open Sans';
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .subHeading {
+        color: rgba(26, 41, 61, 0.83);
+        font-family: 'Open Sans';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    .inputHeading {
+        font-family: 'Open Sans';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 4px;
+    }
+
+    .input {
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,400 @@
+:root {
+  --font: 'Open Sans';
+  --black: rgba(51, 51, 51, 1);
+  --white: rgba(255, 255, 255);
+  --dust: rgba(242, 242, 242, 1);
+  --lightBlack: rgba(143, 143, 143, 1);
+  --light: rgba(242, 242, 242, 1);
+  --lightBlue: rgba(59, 163, 221, 1);
+  --formBg: rgba(230, 247, 255, 0.5);
+  --navy: rgba(19, 61, 122, 1);
+  --btn: #486284;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  height: 100%;
+}
+
+.link {
+  text-decoration: none !important;
+
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  color: var(--black);
+  padding-bottom: 0;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+  background-color: var(--dust);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+  border: none;
+  border-radius: 2;
+  margin-top: 0.8rem;
+}
+
+.dropdown-item {
+  font-family: var(--font);
+  font-weight: 600;
+}
+
+
+.bg-body-tertiary {
+  background-color: var(--white) !important;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+
+}
+
+.brand {
+  color: var(--lightBlack);
+  font-weight: 300;
+}
+
+.card {
+  background-color: var(--dust);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+
+.listTitle li {
+  list-style-type: none;
+  font-size: 0.75rem;
+  margin-bottom: -0.4rem;
+  width: 7.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black)
+}
+
+.activeLink {
+  color: blue;
+}
+
+.sideBarTitle {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+
+.nav-tabs .nav-link {
+
+  color: var(--black);
+  background-color: var(--light);
+  margin-right: 0.4rem;
+  margin-bottom: 0.02rem;
+  border-radius: 0;
+
+}
+
+.nav-tabs .nav-link.active {
+  border-color: var(--lightBlue);
+}
+
+.nav-tabs {
+  border-bottom: 1px solid rgba(59, 163, 221, 1);
+}
+
+form {
+  background-color: var(--formBg);
+}
+
+
+.btn-secondary {
+  font-family: var(--font);
+  background-color: transparent;
+  color: var(--black);
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  font-family: var(--font);
+  background-color: var(--navy);
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: inherit;
+  text-decoration: none;
+  color: blue;
+}
+
+.buttonLink {
+  font-family: var(--font);
+  background-color: var(--formBg);
+  color: blue;
+  border: none;
+  font-weight: 500;
+  padding: 5px;
+}
+
+
+.login-dropdown .btn-outline-primary {
+  position: relative;
+  font-family: var(--font);
+  color: var(--btn);
+  border-color: var(--btn);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 520;
+
+}
+
+.btn-outline-primary:hover {
+  color: var(--btn) !important;
+  background-color: var(--white);
+  border-color: var(--btn);
+
+}
+
+.btn-outline-primary:active {
+  color: blue !important;
+  background-color: var(--white) !important;
+  border-color: var(--white) !important;
+
+}
+
+.login-dropdown .dropdown-toggle::after {
+  content: none;
+}
+
+.login-dropdown form {
+  background-color: white;
+}
+
+.login-dropdown .form-label {
+  margin-bottom: 0.1rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.login-dropdown input {
+  border-radius: 3px;
+}
+
+.login-dropdown .btn.show {
+  color: #1676F3 !important;
+  background-color: transparent;
+  border-color: #1676F3;
+}
+
+.login-dropdown .dropdown-menu {
+  margin-top: 1.5rem;
+  min-width: 18rem;
+  padding: 0.6rem;
+  border-radius: 3px;
+}
+
+.login-dropdown .dropdown-menu[data-bs-popper] {
+  position: absolute !important;
+  left: -120%;
+}
+
+@media (max-width : 900px) {
+  .login-dropdown .dropdown-menu[data-bs-popper] {
+    position: absolute !important;
+    left: -240%;
+  }
+}
+
+.login-menu-bottom .form-check {
+  display: flex;
+  font-size: 0.7rem;
+  padding-top: 0.3rem;
+}
+
+.login-menu-bottom .form-check input {
+  margin-right: 0.2rem;
+}
+
+.login-menu-bottom a {
+  display: flex;
+  font-size: 0.7rem;
+}
+
+.login-menu-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-menu-bottom button {
+  font-size: 0.7rem;
+}
+
+
+.input-password {
+  position: relative;
+}
+
+.input-password button {
+  font-size: 1rem;
+  border: none;
+  position: absolute;
+  right: 1%;
+  top: 48%;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.input-password-value {
+  position: relative;
+}
+
+.button-password-position {
+  color: #486284;
+  font-size: 0.9rem;
+  border: none;
+  position: absolute;
+  right: -1%;
+  top: 8%;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.text-danger {
+  font-size: 0.8rem;
+}
+
+
+.login-links p {
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.login-links p:hover {
+  color: #1676F3;
+}
+
+.color-change {
+  transition: .5s ease all;
+  color: #1676F3;
+}
+
+
+.signup-button {
+  position: relative;
+  height: 100%;
+}
+
+.signup-button button {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
+.employer-form form,
+.login-form form {
+  background-color: white;
+}
+
+
+.employer-form label,
+.login-form label {
+  font-weight: 400;
+  color: #486284;
+}
+
+.employer-form input,
+.login-form input {
+  border-radius: 1px;
+}
+
+.employer-form button {
+  width: 10rem;
+}
+
+
+.login-menu-bottom-screen .form-check {
+  display: flex;
+  font-size: 0.7rem;
+  padding-top: 0.3rem;
+}
+
+.login-menu-bottom-screen .form-check input {
+  margin-right: 0.2rem;
+}
+
+.login-menu-bottom-screen a {
+  display: flex;
+  font-size: 0.7rem;
+}
+
+.login-menu-bottom-screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-menu-bottom-screen button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 8px;
+  height: 1.6rem;
+  width: 4rem;
+  font-size: 0.7rem;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.job-form {
+  background-color: transparent !important;
+}
+
+.form-check-input {
+  margin-right: 0.5rem;
+}
+
+.filter-arrow {
+  position: absolute;
+  top: 40%;
+  right: 12%;
+  font-size: 12px;
+}
+
+.filter-select {
+  background-image: none !important;
+}
+
+@media (max-width: 1024px) {
+  .maxText {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .midText {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .minText {
+    font-size: 12px;
+  }
+}
+
+#jobSeeker {
+  color: #fff;
+}

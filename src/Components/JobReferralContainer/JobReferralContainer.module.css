@@ -1,0 +1,146 @@
+.error{
+    color: red;
+    margin-top: 30px;
+    text-align: center;
+}
+.success{
+    color: green;
+    margin-top: 30px;
+    text-align: center;    
+}
+.backButton{
+    cursor: pointer;
+    width: fit-content;
+    font-size: 1.4rem;
+}
+.title{
+    font-size: 1.1rem;
+    width: fit-content;    
+    font-weight: 700;
+}   
+.container{
+    flex-wrap: nowrap;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.buttonVerify{
+    width: fit-content;
+}
+.customButton{
+    background: white;
+    color: blue;
+    border: none;
+
+}
+.mainContainer{
+    padding-bottom: 6rem;
+ 
+}
+.p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.close{
+    background: none;
+    color: blue;
+}
+.removeButton{
+    background: none;
+    border: none;
+    width: fit-content;
+}
+
+.file {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.button {
+    border: none;
+    background: #009688;
+    color: white;
+    margin: 0.5rem 0;
+    padding: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: gray;
+}
+
+.fileInputContainer input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.fileInputContainer .CustomFileLabel {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    margin: 0.5rem 0;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.fileInputContainer:hover .CustomFileLabel {
+    background-color: #0056b3;
+}
+
+.fileInputContainer input[type="file"]:not(:placeholder-shown)+.CustomFileLabel {
+    background-color: rgba(219, 219, 219, 1);
+}
+
+.fileInputContainer input[type="file"]:not(:placeholder-shown)+.CustomFileLabel:hover {
+    background-color: rgb(209, 209, 209);
+}
+.error{
+    font-size: 0.8rem;
+    padding: 0 0.1rem;
+    color: red;
+
+}
+.infoMessage{
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0 0.1rem;
+    color: gray;
+}
+.fileName{
+    margin: auto;
+    text-align: center;
+
+    padding: 6px;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+}
+.labelChange{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.radioButton{
+
+}

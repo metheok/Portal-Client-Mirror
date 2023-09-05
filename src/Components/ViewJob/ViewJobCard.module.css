@@ -1,0 +1,178 @@
+.Card {
+	background-color: white;
+	box-shadow: none;
+	border: 0;
+}
+
+.Card h1 {
+	font-family: Open Sans;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.10000000149011612px;
+	text-align: left;
+}
+
+.Card p {
+	font-family: Open Sans;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.Card p span {
+	font-weight: 600;
+}
+
+.CardBody {
+	background: rgba(230, 247, 255, 0.5);
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+
+.userName {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+
+
+.subTitle {
+	display: block;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.userExperience {
+	display: block;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: 600;
+
+}
+
+.userCity {
+	display: block;
+	font-size: 15px;
+	font-weight: '500'
+}
+
+.uerCompany {
+	display: block;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+
+.backArrow {
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 2rem;
+
+}
+
+.TabContainer {
+	margin-bottom: 5rem;
+}
+
+
+.TabContainer h1 {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.10000000149011612px;
+	text-align: left;
+}
+
+.jobButton .job {
+	border-radius: 5px;
+	font-size: 12px;
+
+}
+
+@media (max-width : 767px) {
+
+	.Card {
+		background-color: white;
+		box-shadow: none;
+		border: 0;
+	}
+
+	.Card h1 {
+		font-family: Open Sans;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 24px;
+		letter-spacing: 0.10000000149011612px;
+		text-align: left;
+	}
+
+	.Card p {
+		font-family: Open Sans;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 19px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.jobButton .job {
+		font-family: Open Sans;
+		padding: 3px 6px;
+		font-size: 10px;
+		font-weight: 600;
+		line-height: 24px;
+		letter-spacing: 0.5px;
+		text-align: left;
+	}
+
+	.cardBodySection {
+		padding: 8px;
+	}
+
+	.userName {
+		font-family: Open Sans;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 12px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.subTitle {
+		margin-top: 0.8rem;
+		display: block;
+		font-family: Open Sans;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 10px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.status {
+		font-family: Open Sans;
+		font-size: 13px;
+		font-weight: 700;
+		line-height: 12px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+
+	.currentStatus {
+		margin-top: 0.5rem;
+		font-family: Open Sans;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 10px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+}

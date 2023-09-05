@@ -1,0 +1,133 @@
+.carouselControls {
+	position: relative !important;
+}
+
+.carouselControls h3 {
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 39px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.nextButton {
+	z-index: 2;
+	position: absolute;
+	top: 73%;
+	right: 0;
+	transform: translate(-10%, -50%);
+	background-color: #1EA4CE;
+	color: white;
+	padding: 10px 13px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.nextButton:hover {
+	background-color: #133D7A;
+	color: white;
+
+}
+
+.paraHead {
+	padding-left: 0;
+	color: rgba(19, 61, 122, 1);
+	font-weight: 700;
+}
+
+.imageItem {
+	margin: 2rem;
+}
+
+.clientContainer {
+	margin: 3rem 0;
+}
+
+.counter span {
+	font-size: 1.8rem;
+	color: rgba(19, 61, 122, 1);
+}
+
+
+@media (max-width: 1000px) {
+	.clientContainer {
+		margin: 4rem 0;
+	}
+
+	.imageItem img {
+		width: 72px;
+		height: 72px;
+	}
+
+	.imageItem {
+		margin: 01rem;
+	}
+
+	.counter span {
+		font-family: Inter;
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 29px;
+		letter-spacing: 0em;
+		text-align: center;
+
+	}
+
+	.imageItem p {
+		font-family: Inter;
+		font-size: 10px;
+		font-weight: 500;
+		line-height: 12px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+
+	.carouselControls {
+		padding: 5vw
+	}
+
+	.paraHead {
+		color: rgba(19, 61, 122, 1);
+		font-family: Inter;
+		font-size: 11px;
+		font-weight: 600;
+		line-height: 13px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+
+	.carouselControls h3 {
+		font-family: Inter;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 22px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.nextButton {
+		z-index: 2;
+		position: absolute;
+		top: 73%;
+		right: 0;
+		transform: translate(-10%, -50%);
+		background-color: #1EA4CE;
+		color: white;
+		padding: 10px 13px;
+		border: none;
+		border-radius: 50px;
+		cursor: pointer;
+	}
+
+	.nextButton:hover {
+		background-color: #133D7A;
+		color: white;
+
+	}
+
+
+
+}

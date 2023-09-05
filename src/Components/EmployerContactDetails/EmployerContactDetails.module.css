@@ -1,0 +1,23 @@
+.buttonEdit {
+	font-family: var(--font);
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(19, 61, 122, 1);
+	width: 6rem;
+	padding: 5px;
+}
+
+.buttonSave {
+	font-family: var(--font);
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(19, 61, 122, 1);
+	width: 6rem;
+	padding: 5px;
+}
+
+.labelSize label {
+	font-size: 0.95rem;
+}
+
+.labelSize input {
+	font-size: 0.95rem;
+}

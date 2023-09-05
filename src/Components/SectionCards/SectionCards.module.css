@@ -1,0 +1,279 @@
+.cardContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem 0 4rem 0;
+	height: 90%;
+}
+
+.cardShadow {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 426px;
+	height: 400px;
+	box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 5px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cardShadow img {
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+.Title {
+	color: rgba(19, 61, 122, 1);
+	font-family: Inter;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 40px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.Subtitle {
+	color: black;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.cardPara {
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: rgba(116, 116, 116, 1);
+}
+
+
+.heading {
+	font-size: 200%;
+	font-weight: 700;
+	text-align: center;
+}
+
+.subHeading {
+	font-size: 100%;
+	text-align: center;
+	color: rgba(116, 116, 116, 1)
+}
+
+.Button {
+	width: 173px;
+	height: 50px;
+	top: 400.9375px;
+	left: 126.5px;
+	border-radius: 5px;
+	width: 50%;
+	align-self: center;
+
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 37px;
+	letter-spacing: 0em;
+	text-align: justified;
+
+}
+
+
+
+
+@media (min-width: 1440px) {
+	.cardContainer {
+		margin: 0 auto;
+		max-width: 1400px;
+		height: 900px;
+
+	}
+}
+
+@media (max-width: 1350px) {
+	.cardShadow {
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 426px;
+		height: 400px;
+		box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 5px;
+		border-radius: 10px;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+	}
+
+	.cardShadow img {
+		margin-top: 20px;
+		width: 80px;
+		height: 80px;
+	}
+
+	.Title {
+		color: rgba(19, 61, 122, 1);
+		font-family: Inter;
+		font-size: 28px;
+		font-weight: 500;
+		line-height: 40px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+
+	.Subtitle {
+		color: black;
+		font-family: Inter;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 25px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+
+	.cardPara {
+		font-family: Inter;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 23px;
+		letter-spacing: 0em;
+		text-align: center;
+		color: rgba(116, 116, 116, 1);
+	}
+
+
+	.heading {
+		font-size: 200%;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	.subHeading {
+		font-size: 100%;
+		text-align: center;
+		color: rgba(116, 116, 116, 1)
+	}
+
+	.Button {
+		width: 185px;
+		height: 40px;
+		top: 400.9375px;
+		left: 126.5px;
+		border-radius: 5px;
+		width: 50%;
+		align-self: center;
+		font-family: Inter;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 30px;
+		letter-spacing: 0em;
+		text-align: justified;
+
+	}
+}
+
+@media (max-width: 1000px) {
+
+	.cardContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 2rem 0 4rem 0;
+	}
+
+	.cardShadow {
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 320px;
+		height: 250px;
+		box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 5px;
+		border-radius: 15px;
+		border: 1px solid rgba(0, 0, 0, 0.36);
+		margin-bottom: 1rem;
+	}
+
+
+	.cardShadow img {
+		width: 52px;
+		height: 52px;
+		top: 11.7919921875px;
+		left: 134px;
+
+	}
+
+	.Title {
+		color: rgba(19, 61, 122, 1);
+		text-align: center;
+		font-family: Inter;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 22px;
+		letter-spacing: 0em;
+	}
+
+	.Subtitle {
+		color: black;
+		font-family: Inter;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 15px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+
+	.cardPara {
+		width: 90%;
+		margin: auto;
+		color: rgba(116, 116, 116, 1);
+		font-family: Inter;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 15px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+
+	.Button {
+		width: 107px;
+		height: 30px;
+		top: 194.0419921875px;
+		left: 106.5px;
+		border-radius: 3px;
+		font-family: Inter;
+		line-height: 15px;
+		font-size: 12px;
+		font-weight: 500;
+	}
+
+	.heading {
+		font-family: Inter;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 68px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+
+	.subHeading {
+		color: rgba(116, 116, 116, 1);
+		font-family: Inter;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 19px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+}

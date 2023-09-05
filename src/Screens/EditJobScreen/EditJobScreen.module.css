@@ -1,0 +1,22 @@
+.form-check-input:checked[type=checkbox] {
+	color: black;
+	background-color: black;
+}
+
+/* .middleContent {
+	height: 70vh;
+	overflow-y: auto;
+}
+ */
+
+/* .middleContent::-webkit-scrollbar {
+	width: 0.3em;
+} */
+
+.middleContent::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+.middleContent::-webkit-scrollbar-thumb {
+	background-color: #b1b1b1;
+}

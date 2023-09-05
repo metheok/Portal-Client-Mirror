@@ -1,0 +1,23 @@
+/* -------------------mobile ------- */
+
+.backArrow {
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 2rem;
+
+}
+
+
+/* .TabContainer {
+	padding: 0.5rem 0.5rem;
+} */
+
+.TabContainer h1 {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.10000000149011612px;
+	text-align: left;
+}
+.mobileTabs{}

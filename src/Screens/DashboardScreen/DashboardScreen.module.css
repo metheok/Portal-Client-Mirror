@@ -1,0 +1,25 @@
+@media screen and (max-width: 1199px) {
+
+	/* Use the dynamically generated class name from the CSS module */
+	.emptyCard {
+		display: none;
+	}
+}
+
+.middleContent {
+	height: 70vh;
+	overflow-y: auto;
+}
+
+
+.middleContent::-webkit-scrollbar {
+	width: 0.3em;
+}
+
+.middleContent::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+.middleContent::-webkit-scrollbar-thumb {
+	background-color: #b1b1b1;
+}

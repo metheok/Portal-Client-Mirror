@@ -1,0 +1,46 @@
+.labelChange {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
+}
+
+.customButton {
+	color: rgba(22, 118, 243, 1);
+	background: none;
+	border: none;
+	box-shadow: none;
+	padding: 5px;
+	margin: 0;
+}
+
+.backArrow {
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 2rem;
+
+}
+
+.basicHeading {
+	font-family: Open Sans;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
+}
+
+.removeButton {
+	cursor: pointer;
+	font-family: var(--font);
+	background-color: transparent;
+	font-size: small;
+	color: blue;
+	border: none;
+	font-weight: 600;
+	padding: 5px;
+}

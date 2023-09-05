@@ -1,0 +1,90 @@
+.cardContainer {
+	max-Width: 100%;
+	max-Height: 200px;
+	border-radius: 10px;
+
+}
+
+.heading {
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(139, 139, 139, 1);
+}
+
+.number {
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(19, 61, 122, 1);
+}
+
+.jobs {
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(60, 157, 0, 1);
+	margin: 0;
+}
+
+.closedJobs {
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(238, 52, 78, 1);
+	margin: 0;
+}
+
+.view {
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+@media (max-width: 767px) {
+	.mobile {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.heading {
+		font-family: Poppins;
+		font-size: 12px;
+		font-weight: 500;
+		line-height: 28px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: rgba(139, 139, 139, 1);
+	}
+}
+
+
+@media (max-width : 992px) {
+	.heading {
+		font-family: Poppins;
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 28px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: rgba(139, 139, 139, 1);
+	}
+
+}

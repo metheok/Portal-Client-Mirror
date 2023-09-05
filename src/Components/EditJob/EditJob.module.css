@@ -1,0 +1,150 @@
+.formGroup label {
+	font-size: 0.9rem;
+	font-weight: 500;
+	margin-bottom: 0;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.formGroup input {
+	border-radius: 2px;
+}
+
+.formGroup select {
+	border-radius: 2px;
+}
+
+.formGroup textarea {
+	border-radius: 2px;
+}
+
+
+.title {
+	display: block;
+	margin-bottom: 2px;
+}
+
+.subTitle {
+	font-size: 17px;
+	color: rgba(0, 0, 0, 0.6);
+	font-weight: 500;
+}
+
+.pointerCursor {
+	cursor: pointer;
+}
+
+.checkLabel {
+	font-size: 0.9rem;
+	margin-left: 0.3rem;
+	font-weight: 600;
+	margin-bottom: 0;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+
+.backArrow {
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 2rem;
+
+}
+
+
+.tabContainer h1 {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.10000000149011612px;
+	text-align: left;
+}
+
+
+
+
+.mobileFormGroup label {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.mobileFormGroup input {
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 5px 0;
+	margin: 0;
+	background-color: transparent;
+	border-radius: 0;
+	outline: none;
+}
+
+.mobileFormGroup select {
+	border-radius: 2px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 5px 0;
+	margin: 0;
+	background-color: transparent;
+	border-radius: 0;
+	outline: none;
+}
+
+.mobileFormGroup textarea {
+	border-radius: 2px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 5px 0;
+	margin: 0;
+	background-color: transparent;
+	border-radius: 0;
+	outline: none;
+}
+
+.Label {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.singleLine {
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 5px 0;
+	margin: 0;
+	background-color: transparent;
+	border-radius: 0;
+	outline: none;
+
+}
+
+.MobileButton button {
+	font-family: Open Sans;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	text-align: left;
+}
+
+.screeningQuestions h5 {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 14px;
+	letter-spacing: 0em;
+	text-align: left;
+}

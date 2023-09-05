@@ -1,0 +1,11 @@
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+}
+
+.smallFont {
+	font-size: 30px;
+	font-weight: 500;
+}

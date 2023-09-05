@@ -1,0 +1,20 @@
+.centerHeading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	margin-top: 5px;
+}
+
+
+.listTitle li {
+	list-style-type: none;
+	font-size: 0.75rem;
+	margin-bottom: -0.2rem;
+}
+
+.cardWidth {
+	position: absolute;
+	left: 70px;
+	width: 300px;
+}

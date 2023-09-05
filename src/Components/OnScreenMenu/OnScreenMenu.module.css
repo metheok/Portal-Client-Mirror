@@ -1,0 +1,57 @@
+/* .container {
+	margin: 4rem 0;
+} */
+
+.content {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	position: relative;
+	border: none;
+}
+
+.button {
+	background-color: rgba(19, 61, 122, 1);
+	border: none;
+	cursor: pointer;
+	position: relative;
+	padding: 0;
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+}
+
+.button img {
+	height: 21px;
+	width: 21px;
+	margin: 5px;
+}
+
+.modalBody {
+	position: absolute;
+	bottom: calc(100% + -320px);
+	right: 6px;
+	width: 200px;
+	background-color: rgba(230, 247, 255, 0.8);
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menuList {
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menuList li {
+	padding: 5px;
+	margin-bottom: 1.4rem;
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 0em;
+}

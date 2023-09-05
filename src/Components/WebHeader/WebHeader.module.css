@@ -1,0 +1,52 @@
+.error {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.logo {
+    margin-right: 3rem;
+    width: 160px;
+    height: 70px;
+}
+
+
+
+@media (max-width:991px) {
+    .NavbarItems {
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19px;
+    }
+
+    .logo {
+        margin-right: .5rem;
+        width: 90px;
+        height: 50px;
+    }
+
+    .loginButton {
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 19px;
+        padding: 3px 8px;
+    }
+
+    .loginButton span {
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 600;
+
+    }
+
+    .RegisterButton {
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 19px;
+        padding: 3px 8px;
+        border-radius: 3px;
+    }
+
+}

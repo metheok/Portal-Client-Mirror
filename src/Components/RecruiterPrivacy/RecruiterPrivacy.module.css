@@ -1,0 +1,26 @@
+.labelChange {
+	font-size: 0.9rem;
+	margin-bottom: 0;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.customButton {
+	color: rgba(22, 118, 243, 1);
+	background: none;
+	border: none;
+	box-shadow: none;
+	padding: 5px;
+	margin: 0;
+}
+
+
+.removeButton {
+	cursor: pointer;
+	font-family: var(--font);
+	background-color: transparent;
+	font-size: small;
+	color: blue;
+	border: none;
+	font-weight: 600;
+	padding: 5px;
+}

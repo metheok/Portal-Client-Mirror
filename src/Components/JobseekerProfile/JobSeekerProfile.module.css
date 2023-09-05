@@ -1,0 +1,34 @@
+ .profileTabs .nav-tabs {
+ 	display: flex;
+ 	flex-wrap: nowrap;
+ 	overflow-x: auto;
+ 	-ms-overflow-style: none;
+ 	scrollbar-width: none;
+
+ }
+
+ .profileTabs .nav-tabs::-webkit-scrollbar {
+ 	display: none;
+ }
+
+ .profileTabs .nav-link {
+ 	font-size: 12px;
+ 	padding: 10px;
+ 	white-space: normal;
+ 	text-align: center;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height: 35px;
+ 	border-top-left-radius: 3px;
+ 	border-top-right-radius: 3px;
+ }
+
+ .profileTabs .nav-link.active {
+ 	font-weight: bold;
+ }
+
+ .profileTabs .tab-content {
+ 	white-space: pre-line;
+ }

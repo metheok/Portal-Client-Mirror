@@ -1,0 +1,127 @@
+.heading {
+	font-weight: 600;
+	margin: 2rem 0;
+}
+
+.labelChange {
+	font-size: 0.9rem;
+	margin-bottom: 0;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.customButton {
+	color: rgba(22, 118, 243, 1);
+	background: none;
+	border: none;
+	box-shadow: none;
+	padding: 5px;
+	margin: 0;
+}
+
+
+.removeButton {
+	cursor: pointer;
+	font-family: var(--font);
+	background-color: transparent;
+	font-size: small;
+	color: blue;
+	border: none;
+	font-weight: 600;
+	padding: 5px;
+}
+
+/* -------------------mobile ------- */
+
+/* .backArrow {
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 2rem;
+
+}
+
+.BasicLabel {
+	font-family: Open Sans;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.4);
+	padding-top: 0;
+}
+
+.pencilLink {
+	color: rgba(22, 118, 243, 1);
+	background-color: var(--formBg);
+	border: inherit;
+	padding: 0;
+}
+
+.basicHeading {
+	font-family: Open Sans;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
+}
+
+.basicContainer {
+	padding: auto;
+}
+
+.BasicReadOnly {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
+}
+
+.companyContainer {
+	margin-bottom: 140px;
+} */
+
+
+.Label {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.basicHeading {
+	font-family: Open Sans;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.10000000149011612px;
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
+}
+
+
+.backArrow {
+	font-size: 25px;
+	color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 2rem;
+}
+
+.singleLine {
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 5px 0;
+	margin: 0;
+	background-color: transparent;
+	border-radius: 0;
+	outline: none;
+
+}

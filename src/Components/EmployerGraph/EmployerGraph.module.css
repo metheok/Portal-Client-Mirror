@@ -1,0 +1,46 @@
+.backgroundImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	background-image: url('../../images/graph.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+
+@media (max-width: 500px) {
+	.backgroundImg {
+
+		padding: 1.5rem 0.1rem 0.5rem 0.1rem;
+	}
+}
+
+
+
+@media (max-width:767px) {
+
+	.yAxis {
+		font-family: Helvetica;
+		font-size: 11px;
+		font-weight: 700;
+		line-height: 15px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+
+	.xAxis {
+		display: none;
+		font-family: Helvetica;
+		font-size: 10px;
+		font-weight: 700;
+		line-height: 15px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+}

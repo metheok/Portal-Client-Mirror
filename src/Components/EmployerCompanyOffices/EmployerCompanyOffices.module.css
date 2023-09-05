@@ -1,0 +1,160 @@
+.heading {
+	font-weight: 600;
+	margin: 2rem 0;
+}
+
+.labelChange {
+	font-size: 0.9rem;
+	margin-bottom: 0;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.customButton {
+	color: rgba(22, 118, 243, 1);
+	background: none;
+	border: none;
+	box-shadow: none;
+	padding: 5px;
+	margin: 0;
+}
+
+
+.removeButton {
+	cursor: pointer;
+	font-family: var(--font);
+	background-color: transparent;
+	font-size: small;
+	color: blue;
+	border: none;
+	font-weight: 600;
+	padding: 5px;
+}
+
+.Label {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.singleLine {
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 5px 0;
+	margin: 0;
+	background-color: transparent;
+	border-radius: 0;
+	outline: none;
+
+}
+
+.table tr th {
+	font-family: Open Sans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0.15)
+}
+
+.tableBody tr td {
+	font-family: Open Sans;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+.table th,
+.table td {
+	width: 80px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@media (max-width : 991px) {
+	.table tr th {
+		font-family: Open Sans;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 16px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.tableBody tr td {
+		font-family: Open Sans;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 16px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+}
+
+@media (max-width : 767px) {
+
+	.table {
+		width: 50%;
+	}
+
+
+	.table thead tr th {
+		width: 40px;
+	}
+
+
+	.table td:nth-child(2) {
+		width: 60%;
+	}
+
+	.table th,
+	.table td {
+		width: 80px;
+
+	}
+
+	.table tr th {
+		background-color: rgba(230, 247, 255, 0.5)
+	}
+
+	.tableBody tr td {
+		font-family: Open Sans;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 16px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.table tr th {
+		font-family: Open Sans;
+		font-size: 10px;
+		font-weight: 400;
+		line-height: 14px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.tableBody tr td {
+		font-family: Open Sans;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 16px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+}

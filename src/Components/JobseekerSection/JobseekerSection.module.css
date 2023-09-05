@@ -1,0 +1,222 @@
+.card {
+	display: inline-block;
+	align-items: center;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.cardImg {
+	width: 100%;
+	margin-Left: 1.3rem;
+}
+
+.paraHead {
+	color: rgba(19, 61, 122, 1);
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.heading {
+	font-family: Inter;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 50px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(0, 0, 0, 1);
+}
+
+.para {
+	color: rgba(116, 116, 116, 1);
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+.bodyPara {
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.cardHeading {
+	padding-left: 0;
+	font-size: 40px;
+	font-weight: 500;
+	font: Inter;
+}
+
+.subPara {
+	color: rgba(116, 116, 116, 1);
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+}
+
+/* ------img------ */
+
+.parentImg {
+	position: relative;
+}
+
+.firstImg {
+	width: 100%;
+	height: 95%;
+}
+
+.secondImg {
+	width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1000px) {
+
+	.bodyPara {
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+	.subPara {
+		font-size: 13px;
+		color: rgba(116, 116, 116, 1);
+	}
+
+}
+
+@media (min-width: 1401px) {
+
+	.bodyPara {
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	.subPara {
+		font-size: 17px;
+		color: rgba(116, 116, 116, 1);
+	}
+}
+
+
+@media (max-width: 1000px) {
+
+	.backgroundContainer {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.backgroundContainer::before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 2;
+		width: 100%;
+		height: 90%;
+		background-image: url('../../images/JobseekerSection/vacation.png');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.5;
+		/* Adjust the opacity to control the lightness */
+		background-color: white;
+		/* Color overlay */
+	}
+
+	.parentImg {
+		position: relative;
+	}
+
+	.firstImg {
+		display: none;
+	}
+
+	.secondImg {
+		display: none;
+
+	}
+
+	.content {
+		z-index: 2;
+	}
+
+
+	.paraHead {
+		font-family: Inter;
+		font-size: 11px;
+		font-weight: 500;
+		line-height: 14px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+
+
+	.heading {
+		font-family: Inter;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 23px;
+		letter-spacing: 0em;
+		text-align: center;
+		color: rgba(0, 0, 0, 1);
+	}
+
+	.para {
+		color: rgba(116, 116, 116, 1);
+		font-family: Inter;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 16px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+
+	.card {
+		width: 100%;
+		border-radius: 8px;
+		border: 1px solid rgba(0, 0, 0, 0.3);
+		display: grid;
+		place-items: center;
+	}
+
+	.bodyPara {
+		font-family: Inter;
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 15px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.subPara {
+		color: rgba(116, 116, 116, 1);
+		font-family: Inter;
+		font-size: 11px;
+		font-weight: 400;
+		line-height: 14px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	.cardImg {
+		width: 62px;
+		height: 73.65966796875px;
+		top: 1773.930908203125px;
+		left: 28.5px;
+		align-self: center;
+	}
+
+
+
+}
